@@ -31,5 +31,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Customer": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Address": {
+    "dataSource": "transient",
+    "public": false
+  },
+  "EmailAddress": {
+    "dataSource": "transient",
+    "public": false
   }
 }
